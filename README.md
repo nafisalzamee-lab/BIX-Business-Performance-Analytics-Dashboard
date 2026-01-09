@@ -1,4 +1,4 @@
-# Excel Business Performance Analytics Dashboard 
+# BIX Business Performance Analytics Dashboard 
   
 ## Project Overview
 This project features a **dynamic, interactive Excel dashboard** designed to analyze retail sales performance across stores, time periods, and customer segments. Transforming raw transactional data into actionable insights, the solution relies on a **normalized data model** in **Power Pivot** that interconnects a 20,000+ row fact table with specific customer, product, store, and custom date dimensions. Built entirely within Microsoft Excel using **Power Query** for data extraction and advanced **DAX measures** for calculation, the dashboard visualizes critical KPIs—including revenue, profit margins, targets, and refund trends—to support data-driven decision-making.
@@ -54,6 +54,18 @@ The business required an interactive dashboard to consolidate and analyze transa
 ---
 
 ### Data Cleaning & Preparation (Power Query)  
+<table>
+  <tr>
+    <td>
+    <td style="text-align: center;">
+      <em>Data cleaning & preparation in power query</em><br />
+      <img src="images/data cleaning & preparation in power query.png" alt="data cleaning & preparation in power query" width="500" height="1000" /></td>
+    <td>
+    <td style="text-align: center;">
+      <em>Date table creation in power query</em><br />
+      <img src="images/date table creation in power query.png" alt="date table creation in power query.png" width="500" height="400" /></td>
+  </tr>
+</table>
 I Structured ETL pipeline to clean and transform raw CSV data into a relational model. I implemented the following steps sequentially:
 
 1. **Source Import**: Loaded 5 CSV files (transactions, customers, products, salespersons, stores) via **Get Data > From Text/CSV**.  
@@ -64,7 +76,14 @@ I Structured ETL pipeline to clean and transform raw CSV data into a relational 
 6. **Duplicate Removal**: Eliminated rows based on unique **TransactionID** in fact table.  
 7. **Date Dimension Creation**: Generated custom calendar table from min/max dates:
    - Extracted **Year**, **Month Name**, **Month Number**, **Quarter**, **Weekday**, **Weekend** flag.
-   - Added sorting columns (e.g., MonthSort = 1-12).   
+   - Added sorting columns (e.g., MonthSort = 1-12).
+<table>
+  <tr>
+    <td><img src="images/only connection 1.png" alt="Queries set to **Connection Only**" width="300" height="300" /></td>
+    <td><img src="images/only connection 2.png" alt="Queries set to **Connection Only**" width="300" height="300" /></td>
+  </tr>
+</table>
+
 8. **Load Optimization**: Queries set to **Connection Only** (except calculations table) for Power Pivot efficiency.  
 
 > I used Power Query to handle the heavy lifting of data transformation before loading it into Power Pivot.  
