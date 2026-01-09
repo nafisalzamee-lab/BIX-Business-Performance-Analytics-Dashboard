@@ -329,6 +329,24 @@ From each PivotTable, I created corresponding PivotCharts (Insert → PivotChart
 <table>
   <tr>
     <td style="text-align:  center;">
+      <em>waffle chart</em><br />
+      <img src="images/waffle chart.png" alt="waffle chart" width="400" height="300" />
+    </td>
+    <td style="text-align: center;">
+      <em>zebra BI chart</em><br />
+      <img src="images/zebra BI chart.png" alt="zebra BI chart" width="400" height="300" />
+    </td>
+    <td style="text-align:  center;">
+      <em>gradient chart</em><br />
+      <img src="images/gradient chart.png" alt="gradient chart" width="400" height="300" />
+    </td>
+    <td style="text-align: center;">
+      <em>assigning VBA macro</em><br />
+      <img src="images/assigning VBA macro.png" alt="assigning VBA macro" width="400" height="300" />
+    </td>
+  </tr>
+  <tr>
+    <td style="text-align:  center;">
       <em>multi tab view</em><br />
       <img src="images/multi tab view.png" alt="multi tab view" width="400" height="300" />
     </td>
@@ -337,26 +355,18 @@ From each PivotTable, I created corresponding PivotCharts (Insert → PivotChart
       <img src="images/combo box.png" alt="combo box" width="400" height="300" />
     </td>
     <td style="text-align:  center;">
-      <em>waffle chart</em><br />
-      <img src="images/waffle chart.png" alt="waffle chart" width="400" height="300" />
-    </td>
-  </tr>
-  <tr>
-    <td style="text-align:  center;">
-      <em>zebra BI chart</em><br />
-      <img src="images/zebra BI chart.png" alt="zebra BI chart" width="400" height="300" />
+      <em>interactive caption 1</em><br />
+      <img src="images/interactive caption 1.png" alt="interactive caption 1" width="400" height="300" />
     </td>
     <td style="text-align: center;">
-      <em>gradient chart</em><br />
-      <img src="images/gradient chart.png" alt="gradient chart" width="400" height="300" />
-    </td>
-    <td style="text-align:  center;">
-      <em>assigning VBA macro</em><br />
-      <img src="images/assigning VBA macro.png" alt="assigning VBA macro" width="400" height="300" />
+      <em>interactive caption 2</em><br />
+      <img src="images/interactive caption 2.png" alt="interactive caption 2" width="400" height="300" />
     </td>
   </tr>
+</table>
+  <table>
   <tr>
-    <td style="text-align:   center;">
+    <td style="text-align:  center;">
       <em>interaactive slicer 2</em><br />
       <img src="images/interaactive slicer 2.png" alt="interaactive slicer 2" width="400" height="300" />
     </td>
@@ -364,17 +374,8 @@ From each PivotTable, I created corresponding PivotCharts (Insert → PivotChart
       <em>interactive slicer 1</em><br />
       <img src="images/interactive slicer 1.png" alt="interactive slicer 1" width="400" height="300" />
     </td>
-    <td style="text-align:  center;">
-      <em>interactive caption 1</em><br />
-      <img src="images/interactive caption 1.png" alt="interactive caption 1" width="400" height="300" />
-    </td>
-    <td style="text-align:  center;">
-      <em>interactive caption 2</em><br />
-      <img src="images/interactive caption 2.png" alt="interactive caption 2" width="400" height="300" />
-    </td>
   </tr>
-</table>
-    
+</table>  
 - **Custom Visuals**: Waffle charts (weekday revenue split), gradient-filled trends, zebra add-in bars, and conditional formatting with icons/arrows.   
 - **Data Model**: Star schema with 1:many relationships (fact → dimensions).  
 - **DAX Measures**: 10+ custom metrics (e.g., Profit % = $$DIVIDE([Profit], [Revenue])$$, formatted as %).     
