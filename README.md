@@ -81,7 +81,6 @@ I Structured ETL pipeline to clean and transform raw CSV data into a relational 
   <tr><td style="text-align: center;">
       <em>Load Optimization</em><br />
     <td><img src="images/only connection 1.png" alt="Queries set to **Connection Only**" width="300" height="300" /></td>
-    <td><img src="images/only connection 2.png" alt="Queries set to **Connection Only**" width="300" height="300" /></td>
   </tr>
 </table>
 
@@ -100,11 +99,11 @@ I Structured ETL pipeline to clean and transform raw CSV data into a relational 
 <table>
   <tr>
     <td style="text-align:  center;">
-      <em>pivot data model</em><br />
+      <em>power pivot data model</em><br />
       <img src="images/pivot data model.png" alt="pivot data model" width="400" height="300" />
     </td>
     <td style="text-align: center;">
-      <em>power pivot data</em><br />
+      <em>dataset in power pivot</em><br />
       <img src="images/power pivot data.png" alt="power pivot data" width="400" height="300" />
     </td>
   </tr>
@@ -185,7 +184,7 @@ For each dashboard section, I inserted PivotTables directly from the data model 
 <table>
   <tr>
     <td style="text-align:  center;">
-      <em>store pivot 1</em><br />
+      <em>store KPI pivot tables</em><br />
       <img src="images/store pivot 1.png" alt="store pivot 1" width="400" height="300" />
     </td>
     <td style="text-align: center;">
